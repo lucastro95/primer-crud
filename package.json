@@ -1,0 +1,25 @@
+{
+  "name": "primer-crud",
+  "version": "0.0.1",
+  "description": "Mi primer página CRUD",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec npx babel-node src/index.js"
+  },
+  "keywords": [],
+  "author": "Lucía Castro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "mongoose": "^6.1.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.8",
+    "nodemon": "^2.0.15"
+  }
+}
